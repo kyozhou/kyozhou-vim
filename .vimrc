@@ -57,6 +57,7 @@ au! BufRead,BufNewFile *.sah set filetype=javascript
 
 
 " Brief help
+" run ":BundleInstall" to install plugin
 " :BundleList          - list configured bundles
 " :BundleInstall(!)    - install (update) bundles
 " :BundleSearch(!) foo - search (or refresh cache first) for foo
