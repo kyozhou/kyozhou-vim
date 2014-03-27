@@ -68,4 +68,3 @@ Bundle 'gmarik/vundle'
 Bundle "pangloss/vim-javascript"
 Bundle 'bitfyre/vim-indent-html'
 Bundle 'scrooloose/nerdtree'
-
