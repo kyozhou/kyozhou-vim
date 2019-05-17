@@ -55,9 +55,28 @@ let mapleader=','
 nnoremap <C-K> :call PhpDocSingle()<CR>
 vnoremap <C-K> :call PhpDocRange()<CR>
 
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'valloric/youcompleteme'
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
 let g:pdv_cfg_Package = 'placeholder'
-let g:pdv_cfg_Version = '1.0.0'
+let g:pdv_cfg_Version = '1.0.1'
 let g:pdv_cfg_Author = 'zhoubin <kyozhou@sina.com>'
-let g:pdv_cfg_Copyright = 'Copyright 2016 by 周斌 <kyozhou@sina.com>'
+let g:pdv_cfg_Copyright = 'Copyright 2019 by 周斌 <kyozhou@sina.com>'
 let g:pdv_cfg_License = 'MIT'
 
