@@ -62,7 +62,7 @@ au! BufRead,BufNewFile *.sah set filetype=javascript
 " :BundleInstall(!)    - install (update) bundles
 " :BundleSearch(!) foo - search (or refresh cache first) for foo
 " :BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
